@@ -77,7 +77,6 @@ class AuthController extends Controller
             'message' => 'Código de verificación enviado al correo',
             'data' => [
                 'email' => $user->email,
-                "code" => $code,
             ]
         ]);
     }
